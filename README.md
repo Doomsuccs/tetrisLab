@@ -1,3 +1,0 @@
-tetrisserver.c is the server side for this project. It holds the code to the base game and creating a server socket for a client socket to connect into and recieves key presses from the client to play the game.
-tetrisclient.c is the client side for this project. It holds the code to creating a socket and connecting to a server and then sending over it's keystrokes while printing out the number of packets being sent over.
-To run this code, have two consoles open, one for the server and one for the client. Compile the programs using  'make all' and then run the server on one console and the client on the other using './server' and './client' respectively.
